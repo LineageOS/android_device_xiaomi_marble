@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "780550f1_2605624e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35507
+      },
+      "writtenOn": "2025-09-27T23:11:11Z",
+      "side": 1,
+      "message": "Tested on 0b panel. For 0a panel changes to DSI commands are required.",
+      "revId": "2952a26d21d9c39d55b07d50d507a29272c62d5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
