@@ -34,6 +34,24 @@
       "parentUuid": "8b36e0ec_47376e9a",
       "revId": "083f0fab3307ace9b105b33aa3b82a6e78fbcfe2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e73273fc_945aaec2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35507
+      },
+      "writtenOn": "2025-10-17T22:23:23Z",
+      "side": 1,
+      "message": "And sometimes on Global variant fails to register ESE power manager service due to VINTF issue:\n\n```F libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 27222 (vendor.qti.esep), pid 27222 (vendor.qti.esep)\nF DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***\nF DEBUG   : Build fingerprint: \u0027POCO/marble_global/marble:15/AQ3A.241006.001/OS2.0.5.0.VMRMIXM:user/release-keys\u0027\nF DEBUG   : Revision: \u00270\u0027\nF DEBUG   : ABI: \u0027arm64\u0027\nF DEBUG   : Timestamp: 2025-08-03 10:00:17.877882907+1000\nF DEBUG   : Process uptime: 1s\nF DEBUG   : Cmdline: /vendor/bin/hw/vendor.qti.esepowermanager@1.1-service\nF DEBUG   : pid: 27222, tid: 27222, name: vendor.qti.esep  \u003e\u003e\u003e /vendor/bin/hw/vendor.qti.esepowermanager@1.1-service \u003c\u003c\u003c\nF DEBUG   : uid: 1000\nF DEBUG   : tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)\nF DEBUG   : pac_enabled_keys: 000000000000000f (PR_PAC_APIAKEY, PR_PAC_APIBKEY, PR_PAC_APDAKEY, PR_PAC_APDBKEY)\nF DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------\nF DEBUG   : Abort message: \u0027Error while registering eSE power manager service: -2147483648\u0027\nF DEBUG   :     x0  0000000000000000  x1  0000000000006a56  x2  0000000000000006  x3  0000007fd3ba4990\nF DEBUG   :     x4  64766e6f1f445264  x5  64766e6f1f445264  x6  64766e6f1f445264  x7  7f7f7f7f7f7f7f7f\nF DEBUG   :     x8  00000000000000f0  x9  000001ff00000020  x10 000000ff00000020  x11 000000003b9ac9ff\nF DEBUG   :     x12 000000007fffffff  x13 00000000004eed14  x14 0000010e73fc4662  x15 0000000034155555\nF DEBUG   :     x16 000000703b198ab0  x17 000000703b179f40  x18 0000007043d4c000  x19 0000000000006a56\nF DEBUG   :     x20 0000000000006a56  x21 00000000ffffffff  x22 0000000000000040  x23 00000070434a14e8\nF DEBUG   :     x24 0000007042c7dc60  x25 6e69656c6272616d  x26 0000000000000000  x27 0000000000000000\nF DEBUG   :     x28 0000000000000000  x29 0000007fd3ba4a10\nF DEBUG   :     lr  000000703b1129d4  sp  0000007fd3ba4990  pc  000000703b1129f8  pst 0000000000001000\nF DEBUG   : 5 total frames\nDEBUG   : backtrace:\nF DEBUG   :       #00 pc 00000000000c79f8  /apex/com.android.runtime/lib64/bionic/libc.so (abort+160) (BuildId: a64c722fa70268b5b7e5cbc5439c5030)\nF DEBUG   :       #01 pc 0000000000009638  /system/lib64/liblog.so (__android_log_default_aborter+16) (BuildId: 5163cfa5718326176304768d636f9dfb)\nF DEBUG   :       #02 pc 0000000000009794  /system/lib64/liblog.so (__android_log_assert+292) (BuildId: 5163cfa5718326176304768d636f9dfb)\nF DEBUG   :       #03 pc 00000000000015bc  /vendor/bin/hw/vendor.qti.esepowermanager@1.1-service (main.cfi+1092) (BuildId: 542e2c12338c3690da7185f55000942a)\nF DEBUG   :       #04 pc 00000000000c11bc  /apex/com.android.runtime/lib64/bionic/libc.so (__libc_init+124) (BuildId: a64c722fa70268b5b7e5cbc5439c5030)\nI hwservicemanager: getTransport: Cannot find entry android.hardware.secure_element@1.2::ISecureElement/eSE1 in either framework or device VINTF manifest.\nE HidlServiceManagement: Service android.hardware.secure_element@1.2::ISecureElement/eSE1 must be in VINTF manifest in order to register/get.```",
+      "parentUuid": "ab3750f8_faf6764f",
+      "revId": "083f0fab3307ace9b105b33aa3b82a6e78fbcfe2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
