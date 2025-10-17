@@ -16,6 +16,24 @@
       "message": "why?",
       "revId": "083f0fab3307ace9b105b33aa3b82a6e78fbcfe2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ab3750f8_faf6764f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35507
+      },
+      "writtenOn": "2025-10-17T22:16:59Z",
+      "side": 1,
+      "message": "In the Indian variant, spam logs like this often occur:\n```W HidlServiceManagement: Waited one second for android.hardware.secure_element@1.2::ISecureElement/eSE1\nI hwservicemanager: Since android.hardware.secure_element@1.2::ISecureElement/eSE1 is not registered, trying to start it as a lazy HAL (if it\u0027s not configured to be a lazy HAL, it may be stuck starting or still starting).\nI HidlServiceManagement: getService: Trying again for android.hardware.secure_element@1.2::ISecureElement/eSE1...\nW libc    : Unable to set property \"ctl.interface_start\" to \"android.hardware.secure_element@1.2::ISecureElement/eSE1\": PROP_ERROR_HANDLE_CONTROL_MESSAGE (0x20)```\n\nAnd ANR happens too:\n```ANR in com.android.se\nPID: 16183\nReason: executing service com.android.se/.SecureElementService, waited 20005ms\nErrorId: 3c07f15b-76ae-4fee-8391-75cd5bcbce2f\nFrozen: false\nKilling 16183:com.android.se/1068 (adj -800): bg anr\nCompleted ANR of com.android.se in 63ms, latency 2ms\nProcess com.android.se (pid 16183) has died: pers PER```",
+      "parentUuid": "8b36e0ec_47376e9a",
+      "revId": "083f0fab3307ace9b105b33aa3b82a6e78fbcfe2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
