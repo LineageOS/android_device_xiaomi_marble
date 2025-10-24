@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0060683f_fd7521bd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35507
+      },
+      "writtenOn": "2025-10-24T09:06:02Z",
+      "side": 1,
+      "message": "Wait at least OS2.0.209.0.VMRMIXM blobs and fw has been merged.",
+      "revId": "6bf1515a1f44200f94445f8396fb29ef9c417f99",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
