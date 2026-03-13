@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "88c12b8d_b2db6702",
+        "filename": "light/RawLightNotifier.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-03-13T09:16:50Z",
+      "side": 1,
+      "message": "or do this?\n\n```\n_oem_msg msg;\nmsg.notifyType \u003d REPORT_VALUE;\nmsg.value \u003d e.u.vec4.y;\nmsg.notifyTypeFloat \u003d msg.notifyType;\nmsg.unknown1 \u003d 2;\nmsg.unknown2 \u003d 5;\nmsg.sensorType \u003d kSensorTypeAmbientlightRaw;\n\nSscCalApiWrapper::getInstance().processMsg(\u0026msg);\n```",
+      "range": {
+        "startLine": 34,
+        "startChar": 0,
+        "endLine": 42,
+        "endChar": 62
+      },
+      "revId": "07d816474da409752b4f5a32a3730ee282aa583e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
