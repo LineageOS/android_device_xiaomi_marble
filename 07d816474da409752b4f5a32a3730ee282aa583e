@@ -22,6 +22,30 @@
       },
       "revId": "07d816474da409752b4f5a32a3730ee282aa583e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0f02105d_a260c26d",
+        "filename": "light/RawLightNotifier.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 35507
+      },
+      "writtenOn": "2026-03-14T11:12:42Z",
+      "side": 1,
+      "message": "This works as expected and I prefer using stack allocation, but it depends on which one @arian.kulmer@web.de wants to use.",
+      "parentUuid": "88c12b8d_b2db6702",
+      "range": {
+        "startLine": 34,
+        "startChar": 0,
+        "endLine": 42,
+        "endChar": 62
+      },
+      "revId": "07d816474da409752b4f5a32a3730ee282aa583e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
